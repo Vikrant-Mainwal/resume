@@ -5,4 +5,4 @@ const connectDb = ()=>{
     mongoose.connect(process.env.MONGODB_URL).then(()=>console.log("MongoDb Connected")).catch((error)=>console.error(error))
 }
 
-export default connectDb
+export default connectDb;
